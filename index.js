@@ -57,7 +57,9 @@ function review(){
     //  console.log("bannedWord= ", bannedWord)
    }
 }
-return textcopy
+console.log("joined words", textcopy.join(" "));
+
+return textcopy.join(" ")
 }
 
 console.log(review())
